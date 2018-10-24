@@ -1,3 +1,3 @@
 # Purge a resource group 
 
-New-AzureRmResourceGroupDeployment -ResourceGroupName testvmssnewfeatureone -Mode Complete -TemplateFile .\resource\ResourceGroupPurge.template.json -Force -Verbose
+New-AzureRmResourceGroupDeployment -ResourceGroupName #replacewithresourcegroupname# -Mode Complete -TemplateFile .\resource\ResourceGroupPurge.template.json -Force -Verbose
